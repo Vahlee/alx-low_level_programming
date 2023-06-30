@@ -13,6 +13,7 @@ char *cap_string(char *str)
 	int index = 0;
 
 while (str[index])
+
 {
 while (!(str[index] >= 'a' && str[index] <= 'z'))
 ndex++;
@@ -35,4 +36,5 @@ str[index] -= 32;
 index++;
 }
 return (str);
+
 }
