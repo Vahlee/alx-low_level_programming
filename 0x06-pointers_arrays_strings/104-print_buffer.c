@@ -31,7 +31,6 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			if (i % 2)
 			{
-
 				printf(" ");
 			}
 		}
@@ -42,6 +41,5 @@ void print_buffer(char *b, int size)
 			if (c < 32 || c > 132)
 
 			{
-
 				c = '.';
 			}
