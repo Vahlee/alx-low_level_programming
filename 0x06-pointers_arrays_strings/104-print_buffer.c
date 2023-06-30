@@ -45,9 +45,3 @@ void print_buffer(char *b, int size)
 
 				c = '.';
 		}
-		printf("%c", c);
-		}
-		printf("\n");
-		o += 10;
-	}
-}
